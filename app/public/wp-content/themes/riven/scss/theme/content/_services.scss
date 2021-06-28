@@ -1,0 +1,124 @@
+.services {
+	.vc_icon_element-inner{
+		span{
+			font-size: 46px !important;
+			color: #ff2759 !important;
+		}
+	}
+	.desc{
+		h3 {
+		  font-size: 18px;
+		  font-weight: bold;
+		  margin-bottom: 8px;
+		  margin-top: 10px;
+		}
+		p{
+			color: #797979;
+		}
+	} 
+	&.vc_icon_element{
+		margin-bottom: 55px;
+	}
+}
+.services-design{
+	position: relative;
+	.delivery {
+		background: #fff;
+		padding: 64px 0 0 82px;
+		margin-top: 100px;
+   		margin-left: -15px;
+	}
+	h2{
+		color: #000;
+		font-weight: bold;
+		margin-bottom: 28px;
+	}
+	.text-desc {
+		.text-bold {
+	   		line-height: 24px;
+	   		margin-bottom: 18px;
+	   	}
+	   	p{
+	   		line-height: 24px;
+	   		margin-bottom: 24px;
+	   	}
+	}
+	.delivery .btn {
+	    text-transform: none;
+	    padding: 7px 18px 9px 21px;
+	    margin-top: 19px;
+	    letter-spacing: 0.8px;
+	}
+}
+.img-abs-top{
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: -1;
+}
+.btn-play3 {
+    height: 68px;
+    text-indent: -9999em;
+    width: 68px;
+    position: relative;
+    display: inline-block;
+}
+.btn-play3:before{
+	content: "\f01d";
+	position: absolute;
+	top:50%;
+	font-size: 72px;
+	left: 50%;
+	font-family: FontAwesome;
+	text-align: center;
+	text-indent: 9px;
+	color: #ffffff;
+	 -webkit-transform: translate(-50%, -50%);
+	  -moz-transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  -o-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+}
+.video-container a.btn-play3{
+	margin-top: -14px;
+}
+.video-services{
+	a.btn-default{
+		margin-top: 7px; 
+	    font-weight: bold;
+	    padding: 8px 15px 8px 17px;
+	    font-size: 16px;
+	    letter-spacing: 0.8px;
+		background: none;
+		border: 1px solid #fff;
+		&:hover,&:focus, &:active, &:hover:focus,&:hover:active,&:active:focus{
+			border: 1px solid #3c98ec;
+			background: #3c98ec;
+		}
+	}
+}
+
+.services-grid{
+	.vc_row {
+		margin-bottom: 35px;
+	}
+	.service-icon-left .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner:before{content:none;}
+	.service-icon-left .services .desc{
+		border-left: 3px solid #3c98ec;
+		padding-left: 25px;
+	}
+	.service-icon-left .services .desc h3 {
+	    margin-bottom: 21px;
+	    margin-top: -3px;
+	}
+	.services .desc h3{
+		font-size: 20px;
+	}
+	.services .desc p {
+	    line-height: 24px;
+	    margin-bottom: -6px;
+	}
+	.service-icon-left .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner{
+		margin-right: 16px;
+	}
+}

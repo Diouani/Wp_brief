@@ -1,0 +1,142 @@
+.footer-v6{
+	.copyright address{
+		color: #c3c3c3;
+		a{
+			color: #c3c3c3;
+			&:hover{
+				color: #3c98ec;
+			}
+		}
+	}
+	.newsletter_2, .newsletter_1{display: none;}
+	.footer-bottom{
+		background: #0c0c0c;
+		padding-top: 20px;
+		.footer-social{
+			margin-top: -7px;
+			ul{
+				li{
+					display: inline-block;
+					padding-left: 4px;
+					a{
+						color: #686868;
+						display: block;
+						height: 35px;
+						width: 35px; 
+						text-align: center;
+						&:hover{
+							color: #fff;
+							background: #3c98ec;
+							border-radius: 100%;
+						}
+						i{
+							margin-top: 11px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer-office{
+		background: #121214;
+		padding: 88px 0 6px 0;
+	}
+	.widget .title-block{
+		color: #fff;
+		font-size: 20px;
+		text-transform: capitalize;
+	}
+	.widget{
+		color: #a7a7a7;
+		font-size: 13px;
+		p{
+			line-height: 22px;
+		}
+	}
+	.textwidget {
+	    line-height: 22px;
+	    margin-top: 4px;
+		img{
+			margin: 0 0 24px;
+		}
+		> p{
+			margin-bottom: 22px;
+		}
+	}
+	.widget{
+		overflow: visible;
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+	.form-newletter {
+		padding-top: 2px;
+		.input{
+			border: 1px solid #262626;
+			background: transparent;
+			border-radius: 0; 
+			width: 100%;
+			height: 45px;
+			padding-left: 17px;
+		}
+	}
+	input.submit{
+		background: #3c98ec none repeat scroll 0 0;
+	    border-radius: 30px;
+	    color: #fff;
+	    margin-top: 17px;
+	    padding: 0 28px;
+	    letter-spacing: 0.5px;
+	    &:hover{
+	    	background: #ff842a;
+	    	color: #fff;
+	    }
+	}
+	.widget_nav_menu ul {
+		margin-top: 5px;
+		li{
+			padding-bottom: 12px;
+			a:hover{
+				color:$primary_color;
+			}
+		}
+	}
+	.menu-navigation-container{
+		margin-top: 5px;
+	}
+	.latest-tweets {
+		margin-top: -7px;
+		li {
+	  		margin-bottom: 8px;
+	  	}
+	}
+	.twitter-tweet {
+		i{
+			margin-right: 16px;
+    		margin-top: 8px;
+		}
+		.tweet-text {
+	 	 line-height: 24px;
+	 	 p{
+	 	 	margin-top: 2px;
+	 	 }
+	 	}
+	}
+}
+.footer{
+	.widget_meta ul, .widget_pages ul, .widget_nav_menu ul, .widget_archive ul{
+		padding-left: 0;
+			li {
+				a{
+					color: #a7a7a7;
+					font-size: 13px;
+				}
+			}
+	}
+	.footer-v6 .input.placeholder,
+	.footer-v6 .input.placeholder:hover{
+		border: 1px solid #262626;
+	}
+	.mc4wp-alert{
+		margin-top: 10px;
+	}
+}

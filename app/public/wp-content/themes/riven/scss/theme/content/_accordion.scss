@@ -1,0 +1,137 @@
+#news-faq{
+	.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body, .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body::after, .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body::before{
+		background: transparent !important;
+	}
+}
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+	border-radius: 0;
+	font-size: 16px;
+ 	background: #700877;
+	background: -moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+	background: -webkit-linear-gradient(90deg, #700877 0%,#ff2759 100%,#ff2759 100%);
+	background: linear-gradient(90deg, #700877 0%,#ff2759 100%,#ff2759 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#700877', endColorstr='#ff2759',GradientType=1 );
+}
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+ 	background: none !important;
+ 	border: none !important;
+ 	border-radius: 0;
+ }
+ .vc_tta-panel.vc_active{
+ 	position: relative;
+ 	border-left: 1px solid #e0e0e0;
+ 	border-right: 1px solid #e0e0e0;
+ 	border-bottom: 1px solid #e0e0e0;
+ 	&:before{
+ 		content: "";
+ 		position: absolute;
+ 		width: 100%;
+ 		height: 3px;
+ 		top:0;
+ 		left: 0;
+ 		background: #700877;
+		background: -moz-linear-gradient(-45deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+		background: -webkit-linear-gradient(-45deg, #700877 0%,#ff2759 100%,#ff2759 100%);
+		background: linear-gradient(135deg, #700877 0%,#ff2759 100%,#ff2759 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#700877', endColorstr='#ff2759',GradientType=1 );
+ 	}
+ }
+
+ .vc_tta.vc_general .vc_tta-panel-title > a{
+ 	padding: 15px 26px 19px !important;
+ }
+ .vc_tta.vc_general .vc_active .vc_tta-panel-title > a{
+ 	padding-top: 30px !important;
+ }
+ .vc_tta.vc_general .vc_tta-panel-body{
+ 	padding: 6px 26px 25px !important;
+ 	p{
+ 		line-height: 22px;
+ 	}
+ }
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body,
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body::after,
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body::before {
+  border:none;
+  background:#fff !important;
+}
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title > a {
+	 color: #fff !important;
+	 font-weight: 400;
+}
+ .vc_tta-panel-title{
+ 	font-size: 16px;
+ }
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title > a {
+  color: #ff2759 !important;
+  font-weight: bold;
+}
+.vc_tta.vc_tta-style-classic .vc_tta-panel-body, 
+.vc_tta.vc_tta-style-classic .vc_tta-panel-heading, 
+.vc_tta.vc_tta-style-classic .vc_tta-tab > a {
+  border: medium none;
+}
+.vc_tta-panel{
+	margin-bottom: 14px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+.vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::after, 
+.vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::before{
+	border-color: #ffffff !important;
+	display: none !important;
+}
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-controls-icon::after,
+ .vc_tta-color-grey.vc_tta-style-classic .vc_tta-controls-icon::before {
+  border-color: #ffffff !important;
+}
+.choose-riven{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	.image-choose{
+		bottom: -60px;
+	    left: -165px;
+	    position: absolute;
+	    z-index: -1;
+		&.wpb_single_image img{
+			max-width: 100%;
+		}
+	}
+}
+.choose-riven{
+	.vc_tta-panels{
+		height: 379px;
+	}
+}
+.ult_tabmenu.style3{
+	border-bottom: 0;
+}
+.ult_tabmenu.style3 > li.ult_tab_li::before{
+	box-shadow: none;
+}
+.ult_tabmenu.style3 > li.ult_tab_li{
+	padding: 0 15px;
+	border-radius: 30px !important;
+	margin: 0 8px;
+	background: transparent !important; 
+	border: 1px solid #fff !important;
+	&.current{
+		background: #ff2759 !important;
+		border: 1px solid #ff2759 !important;
+	}
+	a{
+		padding: 5px;
+	}
+}
+.ult_tabmenu.style3 li.ult_tab_li:not(:first-child){
+	border: 1px solid #fff !important;
+}
+.ult_tabmenu.style3 li.ult_tab_li.current:not(:first-child){
+	border: 1px solid #ff2759 !important;
+}
+.ult_tabcontent{
+	margin-top: 40px;
+}

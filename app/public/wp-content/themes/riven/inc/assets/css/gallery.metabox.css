@@ -1,0 +1,63 @@
+#gallery-metabox ul.images-list {
+    margin: 6px -2px 0px -2px;
+}
+#gallery-metabox ul.images-list:before,
+#gallery-metabox ul.images-list:after {
+    content: '';
+    display: table;
+}
+#gallery-metabox ul.images-list:after {
+    clear: both;
+}
+
+#gallery-metabox ul.images-list li {
+    display: block;
+    padding: 2px;
+    float: left;
+    position: relative;
+}
+#gallery-metabox ul.images-list li.ui-sortable-placeholder {
+    outline: 1px dashed #CCC;
+    visibility: visible !important;
+}
+#gallery-metabox ul.images-list li .image-preview {
+    display: block;
+}
+
+#gallery-metabox ul.images-list li a.change-image,
+#gallery-metabox ul.images-list li a.remove-image {
+    display: block;
+    position: absolute;
+    top: 2px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    color: #EEE;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+#gallery-metabox ul.images-list li a.change-image:hover,
+#gallery-metabox ul.images-list li a.remove-image:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #FFF;
+}
+#gallery-metabox ul.images-list li a.change-image .dashicons,
+#gallery-metabox ul.images-list li a.remove-image .dashicons {
+    line-height: inherit;
+}
+#gallery-metabox ul.images-list li:hover a.change-image,
+#gallery-metabox ul.images-list li:hover a.remove-image {
+    visibility: visible;
+    opacity: 1;
+}
+#gallery-metabox ul.images-list li a.change-image {
+    right: 29px;
+}
+#gallery-metabox ul.images-list li:hover a.remove-image {
+    right: 2px;
+}

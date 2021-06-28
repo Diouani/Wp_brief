@@ -1,0 +1,29 @@
+<wpml-config>
+    <admin-texts>
+        <key name="riven_settings">
+            <key name="header-link" />
+            <key name="header-address" />
+            <key name="header-phone-number" />
+            <key name="blog-title" />
+            <key name="event-title" />
+            <key name="footer-copyright" />
+        </key>
+    </admin-texts>
+    <custom-fields>
+        <custom-field action="translate">version</custom-field>
+        <custom-field action="translate">custom_tab_title</custom-field>
+        <custom-field action="translate">custom_tab_content</custom-field>
+        <custom-field action="translate">custom_tab_title_2</custom-field>
+        <custom-field action="translate">custom_tab_content_2</custom-field>
+        <custom-field action="translate">ios_link</custom-field>
+        <custom-field action="translate">android_link</custom-field>
+        <custom-field action="translate">pc_link</custom-field>
+        <custom-field action="translate">occupation</custom-field>
+        <custom-field action="translate">facebook</custom-field>
+        <custom-field action="translate">google</custom-field>
+        <custom-field action="translate">twitter</custom-field>
+        <custom-field action="translate">linkedin</custom-field>
+        <custom-field action="translate">youtube</custom-field>
+        <custom-field action="translate">star_rating</custom-field>
+    </custom-fields>
+</wpml-config>

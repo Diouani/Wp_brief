@@ -1,0 +1,119 @@
+.about-us{
+	position: relative;
+	.btn {
+		margin-top: 45px;
+		letter-spacing: 1px;
+	    padding: 14px 27px 15px;
+	}
+	.text{
+		margin-bottom: 59px !important;
+	}
+}
+.img-abs.wpb_single_image{
+	position: absolute;
+	bottom: -35px;
+    left: -65px;
+	z-index: -1;
+	 img{
+		max-width: 90% ;
+	}
+}
+.img-left-abs.wpb_single_image{
+    left: -185px;
+    position: absolute;
+    top: 40px;
+    width: 130%;
+    z-index: -1;
+}
+.text-desc{
+	p{
+		color: #464646;
+		margin-bottom: 20px;
+		line-height: 20px;
+	}
+	.text-bold{
+		font-weight: bold;
+	}
+	.text-light{
+		font-weight: 300;
+	}
+}
+.our-skills{ 
+	position: relative;
+	.img-abs.wpb_single_image{
+	    bottom: -160px;
+	    left: auto;
+	    right: -100px;
+	}
+ }
+ // Progress bar
+.vc_progress_bar .vc_single_bar {
+  background: #ffffff none repeat scroll 0 0 !important;
+  border: 1px solid #fe2759;
+  border-radius: 15px !important;
+  box-shadow: none !important;
+  height: 26px;
+  margin-bottom: 56px !important;
+}
+.icon-progress {
+    left: 0;
+    position: absolute;
+    top: -28px;
+    color: #393939;
+}
+.vc_progress_bar .vc_single_bar .vc_label {
+    color: #393939;
+    font-size: 14px !important;
+    left: 25px;
+    padding: 0 !important;
+    text-transform: uppercase;
+    top: -31px !important;
+}
+.vc_progress_bar .vc_single_bar .vc_bar {
+  	background: rgba(0, 0, 0, 0) linear-gradient(45deg, #700877 0%, #ff2759 100%, #ff2759 100%) repeat scroll 0 0;
+  	border-radius: 10px !important;
+  	height: 20px !important;
+  	left: 2px !important;
+  	top: 2px !important;
+}
+.vc_progress_bar .vc_single_bar:last-child {
+    margin-bottom: 0 !important;
+}
+.vc_progress_bar{
+  padding-top: 20px;
+}
+
+//progress-bar-style2
+.vc_progress_bar .vc_single_bar.progress-bar-style2 .vc_label{
+	font-weight: bold;
+	left: 0;
+	color: #000;
+	top: -35px !important;
+}
+.vc_progress_bar .vc_single_bar.progress-bar-style2 .vc_bar{
+    border-radius: 0 !important;
+    height: 7px !important;
+    left: 0px !important;
+    top: 0px !important;
+    background: #3c98ec !important;
+}
+.vc_progress_bar .vc_single_bar.progress-bar-style2 {
+    background: #d2d2d2 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    height: 7px;
+    margin-bottom: 60px !important;
+    &:nth-child(2n){
+    	.vc_bar{
+    		background: #156ebf !important;
+    	}
+    }
+}
+.vc_progress_value{
+    position: absolute;
+    right: 0;
+    top: -35px;
+    font-size: 14px;
+    color: #a7a7a7;
+}

@@ -1,0 +1,111 @@
+1.8.6 -14th January, 2021
+Changelog:
+1. Theme required plugins updated
+2. CSS fixed
+
+1.8.5 -31th December, 2020
+Changelog:
+1. Theme required plugins updated
+2. Convertplug plugins updated
+3. JS Composer plugins updated.
+4. Revslider Updated
+5. CSS fixed
+
+1.8.4 -2nd December, 2020
+Changelog:
+1. Theme required plugins updated
+2. Convertplug plugins updated
+3. JS Composer plugins updated.
+4. Revslider Updated
+5. CSS fixed
+
+1.8.3 -2nd October, 2020
+Changelog:
+1. Theme required plugins updated
+2. CSS fixed
+
+1.8.2 -21 September, 2020
+Changelog:
+1. HTML5 video background issues fixed
+2. Font awoesome 5 issues fixed
+3. JS  fixed
+4. CSS fixed
+
+1.8.1 -9 September, 2020
+Changelog:
+1. Headers & Footers scripts added in settings
+2. Theme required plugins updated
+3. JS console issues fixed
+4. CSS fixed
+
+1.8.0 -21 August, 2020
+Changelog:
+1. WPBakery Page Builder update
+2. Slider Revolution Updated
+3. JS console issues fixed
+4. Option tree updated
+5. CSS fixed
+
+1.7.9 -13 August, 2020
+Changelog:
+1. WP 5.5 compatibility issues fixed
+2. Demo import issues fixed
+3. Slider Revolution Updated
+4. JS Composer Updated
+5. CSS fixed
+
+1.7.8 -2nd May, 2020
+Changelog:
+1. Slider Revolution Updated
+2. JS Composer Updated
+3. CSS fixed
+
+1.7.7 - 4th February, 2020
+Changelog:
+1. Slider Revolution Updated
+2. css fixed
+
+1.7.6 - 14th December, 2019
+Changelog:
+1. JS Composer Updated
+2. css fixed
+
+1.7.5 - 20th November, 2019
+Changelog:
+1. Post tag options added
+2. Post tag size options added
+3. Default contact form added
+4.[editlink] added in Contact form 7, to edit specific form & mail settings
+5.Slider Revolution Updated
+6.CSS fixed
+
+1.7.4 - 6th October, 2019
+Changelog: 
+1. Duplicate scripts bug fixed
+2. Required Plugin updated
+
+1.7.3 - 2nd October, 2019
+Changelog: 
+1. CSS bug fixed
+
+1.7.2 - 24th July, 2019
+Changelog: 
+1. PHP bugs fixed
+
+1.7.1 - 23th July, 2019
+Changelog: 
+1. JS Composer Updated
+2. Revslider Updated
+
+Changelog: 22th May, 2019
+1. JS Composer Fatal issue fixed .
+2. JS Composer Updated
+3. Revslider Updated
+
+Changelog: 21th january, 2019
+1. Major PHP error fixed
+
+Changelog: 17th january, 2019
+1. Typography options included
+2. CSS fixed
+3. JS file updated
